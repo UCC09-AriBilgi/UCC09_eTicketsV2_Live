@@ -67,8 +67,8 @@ internal class Program
         // Seeding Database
 
         //Seed database
-        AppDbInitializer.Seed(app);
-        AppDbInitializer.SeedUsersAndRolesAsync(app).Wait();
+        //AppDbInitializer.Seed(app);
+        //AppDbInitializer.SeedUsersAndRolesAsync(app).Wait();
 
         app.Run();
     }
